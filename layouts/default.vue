@@ -1,5 +1,7 @@
 <template>
-  <nuxt/>
+  <v-app theme="white">
+    <nuxt/>
+  </v-app>
 </template>
 
 <script>
