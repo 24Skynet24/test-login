@@ -1,0 +1,29 @@
+@import "../fonts/Inter/style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html, body, #__nuxt, #__layout {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 1vw !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}

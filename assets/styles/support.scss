@@ -1,0 +1,10 @@
+@mixin style-font($fz: 14, $fw: 500, $lh: 143%){
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
+@function rem($n) {
+  @return $n / 16 * 1rem;
+}
+
