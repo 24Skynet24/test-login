@@ -15,6 +15,18 @@ html, body, #__nuxt, #__layout {
 html {
   font-size: 1vw !important;
   overflow: auto !important;
+
+  @media (min-width: 768px) and (max-width: 1024px){
+    font-size: 1.5vw !important;
+  }
+
+  @media (min-width: 426px) and (max-width: 768px){
+    font-size: 2vw !important;
+  }
+
+  @media screen and (max-width: 426px){
+    font-size: 3vw !important;
+  }
 }
 
 a {

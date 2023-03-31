@@ -59,6 +59,10 @@ img {
   width: 50%;
   height: 100vh;
   object-fit: cover;
+
+  @media screen and (max-width: 768px){
+    display: none;
+  }
 }
 
 h1 {
